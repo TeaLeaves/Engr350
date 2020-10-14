@@ -194,6 +194,7 @@ public class Tester {
             }
             //exit
             else {
+                System.out.println("----------------------------------------------------------------");
                 System.out.println("Your Change: $" + register.giveChange() + "\n");
                 System.out.println("Machine Salary: $" + String.format("%.2f",register.getSalary()) + "\n");
                 System.out.println("Good'Buy'. Please Come Again!");
